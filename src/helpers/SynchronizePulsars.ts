@@ -3,7 +3,7 @@ import SpacePoint from "../interfaces/SpacePoint";
 import { TimeMachine } from "../entities/TimeMachine";
 import calculateSpaceTime from "./CalculateSpaceTime";
 
-const synchronizePulsars = (timeMachine:TimeMachine) => {
+const synchronizePulsars = (timeMachine:TimeMachine):number => {
     
     /**
      * CALC
